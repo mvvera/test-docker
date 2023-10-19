@@ -1,0 +1,6 @@
+services:
+  my-python:
+    image: mvvera/my-python
+    build: .
+    ports:
+      - "5000:5000"
